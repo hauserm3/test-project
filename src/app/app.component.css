@@ -1,0 +1,37 @@
+header {
+    margin: 35px 50px 15px;
+}
+
+#content {
+    margin: 0 43px;
+}
+
+#content-nav {
+    background-color: white;
+    height: 145px;
+    padding: 15px 33px;
+}
+
+#account img {
+    border-radius: 50%;
+    width: 24px;
+    color: #0097a8;
+}
+
+#account b {
+    color: #0097a8;
+}
+
+.buttons-group button {
+    margin-left: 22px;
+    min-width: 113px;
+    min-height: 28px;
+}
+
+
+#content-body {
+    background-color: #f7f7f7;
+    min-height: 200px;
+    border-bottom-right-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+}
