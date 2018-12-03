@@ -12,14 +12,22 @@ header {
     padding: 15px 32px;
 }
 
-#account img {
+/*#account img {
     border-radius: 50%;
     width: 24px;
     color: #0097a8;
+}*/
+
+#account div {
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    background-color: #0097a8;
 }
 
 #account b {
     color: #0097a8;
+    margin-left: 9px;
 }
 
 .buttons-group button {
