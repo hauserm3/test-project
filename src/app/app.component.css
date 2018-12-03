@@ -9,7 +9,7 @@ header {
 #content-nav {
     background-color: white;
     height: 145px;
-    padding: 15px 33px;
+    padding: 15px 32px;
 }
 
 #account img {
@@ -34,4 +34,20 @@ header {
     min-height: 200px;
     border-bottom-right-radius: .25rem;
     border-bottom-left-radius: .25rem;
+}
+
+#content-body {
+    padding: 25px 21px;
+}
+
+#content-body-summary .card {
+    margin: 0 11px;
+}
+
+#summary {
+    width: 525px;
+}
+
+.results {
+    width: 266px;
 }
