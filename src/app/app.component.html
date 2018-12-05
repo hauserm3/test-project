@@ -1,30 +1,81 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
-<header class="d-flex justify-content-between align-items-end">
-  <h2 style="color: whitesmoke">Logo</h2>
-  <!--<a href="https://www2.deloitte.com/ua/uk.html" target="_blank">
-    <img width="125" alt="Angular Logo" src="../assets/deloitte.svg">
-  </a>-->
-  <div id="account" class="d-inline-flex">
-    <!--<img src="//:0">-->
-    <div></div>
-    <b>Amigo</b>
+<!--<header class="d-flex justify-content-between align-items-end">-->
+<header>
+  <div class="row align-items-end">
+    <div class="col">
+      <h2 style="color: whitesmoke">Logo</h2>
+      <!--<a href="https://www2.deloitte.com/ua/uk.html" target="_blank">
+        <img width="125" alt="Angular Logo" src="../assets/deloitte.svg">
+      </a>-->
+    </div>
+    <div class="col-auto">
+      <div id="account" class="d-inline-flex">
+        <div>
+          <!--<img src="//:0">-->
+        </div>
+        <b>Amigo</b>
+      </div>
+    </div>
   </div>
+
+
 </header>
 
 <div id="content">
-  <div id="content-nav" class="d-flex justify-content-between">
-    <div>
-      <h5>Project name very long project name</h5>
-      <i class="far fa-thumbs-down"></i>
-      <i class="far fa-user"></i>
-      <i class="far fa-calendar-alt"></i>
+  <div id="content-nav">
+    <div class="row">
+      <div class="col-md-6">
+        <h5>Project name very long project name</h5>
+        <div class="row" id="info-icons">
+          <div class="col-auto">
+            <i class="far fa-thumbs-down"></i>
+            <span>Rejected</span>
+            <!--<i class="far fa-thumbs-up"></i> <span>Approved</span>-->
+          </div>
+          <div class="col-auto">
+            <i class="far fa-user"></i>
+            <span>Amigo</span>
+          </div>
+          <div class="col-auto">
+            <i class="far fa-calendar-alt"></i>
+            <span>12.10.2017</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 buttons-group">
+        <button type="button" class="btn btn-info btn-sm">Save draft</button>
+        <button type="button" class="btn btn-info btn-sm">Export</button>
+        <button type="button" class="btn btn-info btn-sm">Add project</button>
+        <button type="button" class="btn btn-info btn-sm">Compare projects</button>
+      </div>
     </div>
-    <div class="buttons-group">
-      <button type="button" class="btn btn-info btn-sm">Save draft</button>
-      <button type="button" class="btn btn-info btn-sm">Export</button>
-      <button type="button" class="btn btn-info btn-sm">Add project</button>
-      <button type="button" class="btn btn-info btn-sm">Compare projects</button>
+    <div class="row">
+      <form class="form-inline">
+        <div class="input-group col-md-4">
+          <input class="form-control py-2 border-right-0 border" placeholder="Search" type="search" id="example-search-input">
+          <span class="input-group-append">
+                <button class="btn btn-outline-secondary border-left-0 border" type="button">
+                    <i class="fa fa-search"></i>
+                </button>
+              </span>
+        </div>
+
+        <label class="text-muted mr-2" for="inlineFormCustomSelectPref">Step results</label>
+        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+          <option selected>Choose...</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+
+        <button type="button" class="btn btn-link">Clear filters</button>
+      </form>
+    </div>
+    <div class="row">
+      <div class="col">
+        <small class="text-muted">Shown 15 of 358</small>
+      </div>
     </div>
   </div>
   <div id="content-body">
@@ -51,7 +102,6 @@
       <i class="fas fa-exchange-alt"></i>
       <i class="fas fa-undo-alt"></i>
       <i class="fas fa-check"></i>
-      <i class="fas fa-search"></i>
       <i class="fas fa-chevron-down"></i>
     </div>
   </div>

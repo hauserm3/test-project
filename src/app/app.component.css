@@ -12,11 +12,9 @@ header {
     padding: 15px 32px;
 }
 
-/*#account img {
-    border-radius: 50%;
-    width: 24px;
-    color: #0097a8;
-}*/
+#info-icons span {
+    margin-left: 8px;
+}
 
 #account div {
     border-radius: 50%;
