@@ -2,20 +2,6 @@ header {
     margin: 35px 50px 15px;
 }
 
-#content {
-    margin: 0 43px;
-}
-
-#content-nav {
-    background-color: white;
-    height: 145px;
-    padding: 15px 32px;
-}
-
-#info-icons span {
-    margin-left: 8px;
-}
-
 #account div {
     border-radius: 50%;
     width: 24px;
@@ -28,32 +14,76 @@ header {
     margin-left: 9px;
 }
 
+/* ----------------   */
+
+#content {
+    margin: 0 43px;
+}
+
+#content-nav {
+    background-color: white;
+    min-height: 145px;
+    padding: 15px 32px 0 32px;
+}
+
+#info-icons span {
+    margin-left: 8px;
+}
+
 .buttons-group button {
     margin-left: 22px;
     min-width: 113px;
     min-height: 28px;
 }
 
+#step-results .dropdown-toggle:after {
+    font-family: FontAwesome;
+    content: "\f107"
+}
+
+#step-results .dropdown-toggle > span.caret {
+    display: none;
+}
+
+/* ----------------   */
 
 #content-body {
     background-color: #f7f7f7;
     min-height: 200px;
     border-bottom-right-radius: .25rem;
     border-bottom-left-radius: .25rem;
+    padding: 25px 32px;
 }
 
-#content-body {
-    padding: 25px 21px;
+#content-body .card {
+    border-radius: 0.50rem;
 }
 
-#content-body-summary .card {
-    margin: 0 11px;
-}
+/*#content-body-summary .card {*/
+    /*margin: 0 11px;*/
+/*}*/
 
 #summary {
-    width: 525px;
+    /*width: 525px;*/
 }
 
 .results {
-    width: 266px;
+    /*width: 266px;*/
+}
+
+.circle {
+    border-radius: 50%;
+    width: 14px;
+    height: 14px;
+    margin-right: 11px;
+}
+
+.color1 {
+    /*background-color: #5cb7e6;*/
+    background-color: #9fdafc;
+}
+
+.color2 {
+    /*background-color: #5cb7e6;*/
+    background-color: #035688;
 }

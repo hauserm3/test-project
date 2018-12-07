@@ -19,7 +19,6 @@
     </div>
   </div>
 
-
 </header>
 
 <div id="content">
@@ -61,15 +60,15 @@
               </span>
         </div>
 
-        <label class="text-muted mr-2" for="inlineFormCustomSelectPref">Step results</label>
-        <select class="custom-select my-1 mr-sm-2" id="inlineFormCustomSelectPref">
+        <label class="text-muted mr-2" for="step-results">Step results</label>
+        <select class="custom-select my-1 mr-sm-2" id="step-results">
           <option selected>Choose...</option>
           <option value="1">One</option>
           <option value="2">Two</option>
           <option value="3">Three</option>
         </select>
 
-        <button type="button" class="btn btn-link">Clear filters</button>
+        <button type="button" class="btn btn-link text-info">Clear filters</button>
       </form>
     </div>
     <div class="row">
@@ -79,23 +78,70 @@
     </div>
   </div>
   <div id="content-body">
-    <div id="content-body-summary" class="d-flex justify-content-between">
-      <div id="summary" class="card">
-        <div class="card-body">
-          This is some text within a card body.
+    <!--<div id="content-body-summary" class="d-flex justify-content-between">-->
+    <div id="content-body-summary" class="row">
+      <div class="col-md-6">
+        <div id="summary" class="card">
+          <div class="card-body">
+            This is some text within a card body.
+          </div>
         </div>
       </div>
-      <div class="card results">
-        <div class="card-body">
-          Status results
+      <div class="col-md-3">
+        <div class="card results">
+          <div class="card-body">
+            Status results
+          </div>
         </div>
       </div>
-      <div class="card results">
-        <div class="card-body">
-          Step results
+      <div class="col-md-3">
+        <div class="card results">
+          <div class="card-body">
+            Step results
+          </div>
         </div>
       </div>
     </div>
+
+    <div class="row text-muted">
+      <div class="col">Company info</div>
+      <div class="col">Summary</div>
+      <div class="col">URL</div>
+      <div class="col">Cross-URL</div>
+    </div>
+
+    <div class="card">
+
+      <div class="row text-muted"> <!-- ngIf -->
+        <div class="col">Company info</div>
+        <div class="col">Summary</div>
+        <div class="col">URL</div>
+        <div class="col">Cross-URL</div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <h5 class="text-info">BMW VERTRIEBS GMBH SP.Z O.O. ODDZIAL W POLSCE</h5>
+          <p>Text text text text tex text textex tex tex</p>
+          <div class="circle color1"></div>
+          <div class="circle color2"></div>
+
+          <p>Text text text text tex text textex tex tex tion</p>
+        </div>
+        <div class="col">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Aenean odio sapien, ultrices laoreet risus in, elementum volutpat sapien.
+            Nulla facilisi. Suspendisse libero justo, luctus in eros a, tempor sodales orci.
+            Praesent ornare augue in neque dictum, non venenatis mauris consectetur.
+            Donec porta elementum feugiat.
+          </p>
+        </div>
+        <div class="col">URL</div>
+        <div class="col">Cross-URL</div>
+      </div>
+    </div>
+
     <div id="content-body-company">
       <i class="fas fa-pen"></i>
       <i class="fas fa-times"></i>
